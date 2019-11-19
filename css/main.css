@@ -1,0 +1,134 @@
+@import 'nav.css';
+
+body {
+  color: #66635B;
+  background-image: linear-gradient(#F7FFF7, #FFE66D);
+  background-color: #F7FFF7;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.content {
+  display: flex;
+}
+
+h1 {
+  color: #1A535C;
+  font-size: 30pt;
+  padding-left: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.fishies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+.fishies__card {
+  flex-basis: 30%;
+  margin-bottom: 1em;
+  padding: .2em;
+  text-align: center;
+  border: 1px solid #1a535c;
+}
+
+.highlightFish{
+  background-color: darkgoldenrod;
+  color: lightgoldenrodyellow;
+}
+
+aside {
+  width: 30%;
+  color: #1A535C;
+  opacity: 90%;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hero__img {
+  margin-top: -6em;
+  width: fit-content;
+}
+
+
+.hero {
+  color: #FFE66D;
+  background-image: url(../images/ocean.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;  
+  position: 100px;
+  padding-top: 20px;
+  padding-bottom: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h3 {
+  color: #1A535C;
+  padding-bottom: 10px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 15px;
+  opacity: 70%;
+
+}
+
+.hero div {
+  color: #F7FFF7;
+  text-shadow: 1px 1px #66635B;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  opacity: 70%;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+
+.location__card {
+  
+  background-color: #F7FFF7;
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 3em;
+
+
+}
+
+.location__card div {
+  text-align: center;
+  padding-bottom: 1em;
+  color: black;
+
+}
+
+.location__card img {
+  max-width: 175px;
+  margin-bottom: 1em;
+}
+
+button:hover {
+background-color: #1A535C;
+}

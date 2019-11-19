@@ -1,0 +1,33 @@
+.fishies {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-evenly;
+  }
+  
+  .fishies__card {
+    flex-basis: 30%;
+    margin-bottom: 1em;
+    padding: .2em;
+    text-align: center;
+    border: 1px solid #1a535c;
+    transition: ease-in-out;
+    transition-duration: .5s;
+    transition-delay: 5ms;
+  }
+  
+  .highlightFish{
+    box-shadow: 2px 5px #1A535C;
+    text-decoration: underline;
+    font-weight: 800;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: aquamarine;
+    transition-duration: .25s;
+    transition-delay: 5ms;
+  }
+
+  button:hover {
+    background-color: #1A535C;
+    }
+  

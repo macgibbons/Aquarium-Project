@@ -1,0 +1,25 @@
+aside {
+    width: 30%;
+    color: #1A535C;
+    opacity: 90%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tip {
+    transition: ease-in-out;
+    transition-duration: .5s;
+    transition-delay: 5ms;
+}
+
+.highlight__tip {
+    box-shadow: 2px 5px #1A535C;
+    text-decoration: underline;
+    font-weight: 800;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: aquamarine;
+    transition: ease-in-out;
+    transition-duration: .25s;
+    transition-delay: 5ms;
+}

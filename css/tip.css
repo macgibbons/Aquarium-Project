@@ -1,4 +1,5 @@
 aside {
+    font-family: Montreal-Serial-Bold;
     width: 30%;
     color: #9400d3;
     opacity: 90%;
@@ -18,6 +19,10 @@ h3 {
     flex-basis: 20%;
 }
 
+.tip__p {
+    color: #5c4e61;
+}
+
 .highlight__tip {
     text-align: center;
     color: white;
@@ -27,4 +32,8 @@ h3 {
     transition: ease-in-out;
     transition-duration: .25s;
     transition-delay: 5ms;
+}
+
+.tip__p:hover {
+    color: white;
 }

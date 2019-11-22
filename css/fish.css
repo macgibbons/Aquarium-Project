@@ -1,33 +1,45 @@
-.fishies {
+.fishList {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 100%;
     justify-content: space-evenly;
   }
   
-  .fishies__card {
+  .fish {
     flex-basis: 30%;
     margin-bottom: 1em;
-    padding: .2em;
     text-align: center;
-    border: 1px solid #1a535c;
     transition: ease-in-out;
     transition-duration: .5s;
     transition-delay: 5ms;
   }
+
+.fish__name {
+  font-weight: 700;
+  padding: 1.6em;
+}
   
   .highlightFish{
-    box-shadow: 2px 5px #1A535C;
-    text-decoration: underline;
     font-weight: 800;
     border: 1px solid black;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: #9400d3;
     transition-duration: .25s;
     transition-delay: 5ms;
+    color: white;
   }
 
+button {
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: lowercase;
+  color: #9400d3;
+}
   button:hover {
-    background-color: #1A535C;
+    background-color: rgb(255, 255, 255);
+    }
+
+    aside {
+      margin-right: 1em;
     }
   

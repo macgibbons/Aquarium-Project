@@ -9,18 +9,18 @@ const fishCollection = [
         name: "Bart",
         food: ["algae", "crustaceans"],
         species: "Goldfish",
-        length: 3,
-        Location: "The Ocean",
-        image: "fish.jpg"
+        size: 3,
+        location: "The Ocean",
+        image: "/images/Shark.png"
     },
 
     {
         name: "Bret",
         food: ["Fish food", "algae"],
         species: "Fish",
-        length: 12,
-        Location: "The Ocean",
-        image: "fish.jpg"
+        size: 12,
+        location: "The Ocean",
+        image: "/images/Clown-Fish-PNG-Image-File.png"
 
     
     },
@@ -29,9 +29,9 @@ const fishCollection = [
         name: "Brandon",
         food: ["Small fish", "crustaceans"],
         species: "Baracuda",
-        length: 24,
-        Location: "Gulf Coast",
-        image: "fish.jp"
+        size: 24,
+        location: "Gulf Coast",
+        image: "/images/fish_PNG25141.png"
     
     },
 
@@ -39,27 +39,27 @@ const fishCollection = [
         name: "Chad",
         food: ["Seals", "Surfers", "Small Children"],
         species: "Great White Shark",
-        length: 96,
-        Location: "Atlantic Ocean",
-        image: "fish.jpg"
+        size: 96,
+        location: "Atlantic Ocean",
+        image: "/images/fish-png-gold-8.png"
     },
 
     {
         name: "Chandler",
         food: ["sushi", "sashimi"],
         species: "Blue fin tuna",
-        length: 72,
-        Location: "Pacific Ocean",
-        image: "fish.jpg"
+        size: 72,
+        location: "Pacific Ocean",
+        image: "/images/goldie-fish.jpg"
     },
 
     {
         name: "Dan",
         food: ["krill", "small fish"],
         species: "Angler Fish",
-        length: 38,
-        Location: "Deep sea",
-        image: '/images/Animal-Fish.png'
+        size: 38,
+        location: "Deep sea",
+        image: '/images/EEL.png'
     }
 ]
 

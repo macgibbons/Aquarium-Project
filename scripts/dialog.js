@@ -17,19 +17,19 @@ const initializeDetailButtonEvents = () => {
 
     // You will be writing code below this line
     
-    document.querySelector("#button__bart").addEventListener(
+    document.querySelector("#button--bart").addEventListener(
         "click",
         theClickEvent => {
             console.log("this got clicked")
-            const theDialog = document.querySelector("#details__bart")
+            const theDialog = document.querySelector("#details--bart")
             theDialog.showModal()
         }
     )
-    document.querySelector("#button__bret").addEventListener(
+    document.querySelector("#button--bret").addEventListener(
         "click",
         theClickEvent => {
             console.log("this got clicked")
-            const theDialog = document.querySelector("#details__bret")
+            const theDialog = document.querySelector("#details--bret")
             theDialog.showModal()
         }
     )

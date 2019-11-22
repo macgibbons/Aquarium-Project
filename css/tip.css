@@ -1,24 +1,28 @@
 aside {
     width: 30%;
-    color: #1A535C;
+    color: #9400d3;
     opacity: 90%;
     padding: 10px;
-    border: 1px solid black;
+    padding-left: 20px;
+    border-left: 3px solid #9400d3
+}
+
+h3 {
+    text-align: center;
 }
 
 .tip {
     transition: ease-in-out;
     transition-duration: .5s;
     transition-delay: 5ms;
+    padding-bottom: 2em;
 }
 
 .highlight__tip {
-    box-shadow: 2px 5px #1A535C;
-    text-decoration: underline;
+    color: white;
     font-weight: 800;
-    border: 1px solid black;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: #9400d3;
     transition: ease-in-out;
     transition-duration: .25s;
     transition-delay: 5ms;

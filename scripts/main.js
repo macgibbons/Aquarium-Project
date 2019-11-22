@@ -5,5 +5,4 @@ import addBorders from './tips.js';
 initializeDetailButtonEvents()
 
 addMouseOverEventListeners()
-
 addBorders()

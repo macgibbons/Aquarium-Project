@@ -18,4 +18,6 @@ const addMouseOverEventListeners = () => {
     }
 }
 
+// this function adds a new class "highlightFish" to the .fishies__card when a mouse is hovred over it 
+
 export default addMouseOverEventListeners

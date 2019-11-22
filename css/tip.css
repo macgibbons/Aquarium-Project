@@ -12,13 +12,14 @@ h3 {
 }
 
 .tip {
-    transition: ease-in-out;
     transition-duration: .5s;
     transition-delay: 5ms;
     padding-bottom: 2em;
+    flex-basis: 20%;
 }
 
 .highlight__tip {
+    text-align: center;
     color: white;
     font-weight: 800;
     padding: 10px;

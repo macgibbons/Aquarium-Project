@@ -6,7 +6,7 @@ const tipComponent = (tip) => {
         <div class="tip">
           <h4>${tip.title}</h4>
           <!-- description -->
-          <p> ${tip.tip} </p>
+          <p class="tip__p"> ${tip.tip} </p>
         </div>
            
     `

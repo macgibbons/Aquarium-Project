@@ -1,5 +1,7 @@
 import tipComponent from "./TipHTML.js";
-import { useLocation } from "./LocationDataProvider.js";
+import {
+    useLocation
+} from "./LocationDataProvider.js";
 import locationComponent from "./Location.js";
 /**
  *  FishListComponent which renders individual fish objects as HTML
@@ -30,4 +32,3 @@ const locationListComponent = () => {
 
 
 export default locationListComponent
-

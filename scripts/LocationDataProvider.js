@@ -1,5 +1,4 @@
-const locationCollection = [
-    {
+const locationCollection = [{
         location: "Gulf Coast",
         coordinates: "29.321, -94.924",
         image: '/images/gulfcoast.png'
@@ -20,7 +19,7 @@ const locationCollection = [
         image: '/images/EEL.png'
     },
 
-    
+
 ]
 
 export const useLocation = () => {

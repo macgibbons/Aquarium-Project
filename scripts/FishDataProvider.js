@@ -4,8 +4,7 @@
  *  representation as an object. Then add all the other
  *  fish to the collection.
  */
-const fishCollection = [
-    {
+const fishCollection = [{
         name: "Bart",
         food: ["algae", "crustaceans"],
         species: "Goldfish",
@@ -22,7 +21,7 @@ const fishCollection = [
         location: "The Ocean",
         image: "/images/Clown-Fish-PNG-Image-File.png"
 
-    
+
     },
 
     {
@@ -32,7 +31,7 @@ const fishCollection = [
         size: 24,
         location: "Gulf Coast",
         image: "/images/fish_PNG25141.png"
-    
+
     },
 
     {

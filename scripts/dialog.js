@@ -16,7 +16,7 @@ const initializeDetailButtonEvents = () => {
 
 
     // You will be writing code below this line
-    
+
     document.querySelector("#button--bart").addEventListener(
         "click",
         theClickEvent => {

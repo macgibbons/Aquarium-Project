@@ -1,19 +1,19 @@
 const tipCollection = [
     {
-        title: "Tank Tips",
-        tip: "Make sure to clean your tip"
+        title: "tank.",
+        tip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae arcu luctus, sagittis dolor et, dapibus risus. Phasellus efficitur nibh nec nibh convallis, at scelerisque massa scelerisque. Duis suscipit quam."
     },
     {
-        title: "Feeding Tips",
-        tip: "Make sure to feed your fish"
+        title: "food.",
+        tip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae arcu luctus, sagittis dolor et, dapibus risus. Phasellus efficitur nibh nec nibh convallis, at scelerisque massa scelerisque. Duis suscipit quam."
     },
     {
-        title: "Fishing tips",
-        tip: "Use a map and boat to find fish"
+        title: "fishing.",
+        tip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae arcu luctus, sagittis dolor et, dapibus risus. Phasellus efficitur nibh nec nibh convallis, at scelerisque massa scelerisque. Duis suscipit quam."
     },
     {
-        title: "Water tips",
-        tip: "use freshwater or saltwater"
+        title: "water.",
+        tip: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae arcu luctus, sagittis dolor et, dapibus risus. Phasellus efficitur nibh nec nibh convallis, at scelerisque massa scelerisque. Duis suscipit quam."
     },
     
 ]

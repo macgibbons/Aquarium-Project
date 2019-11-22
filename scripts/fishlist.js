@@ -30,4 +30,3 @@ const FishListComponent = () => {
 
 
 export default FishListComponent
-

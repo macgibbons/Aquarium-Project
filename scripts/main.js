@@ -7,8 +7,8 @@ import { useTip } from './TipDataProvider.js';
 import tipListComponent from './tiplist.js';
 
 
-useTip()
-useFish()
+// useTip()
+// useFish()
 
 const allOfTheFish = useFish()
 
@@ -20,7 +20,7 @@ for (const fish of allOfTheFish) {
 
 FishListComponent()
 tipListComponent()
-// initializeDetailButtonEvents()
-
 addMouseOverEventListeners()
 addBorders()
+initializeDetailButtonEvents()
+

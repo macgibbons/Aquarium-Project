@@ -25,3 +25,18 @@ img {
   max-width: 100%;
 }
 
+dialog {
+  color: #5c4e61;
+  border-color: #9400d3;
+  border-radius: 10%;
+}
+
+dialog::backdrop {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: #9400d3;
+    opacity: 50%
+}

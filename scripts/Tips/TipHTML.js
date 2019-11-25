@@ -1,6 +1,3 @@
-/**
- *  FishComponent which renders individual fish objects as HTML
- */
 const tipComponent = (tip) => {
     return `
         <div class="tip">

@@ -1,5 +1,5 @@
-import { useLocation } from "./LocationDataProvider.js";
-import locationListComponent from "./locationlist.js";
+import { useLocation } from "./Location/LocationDataProvider.js";
+import locationListComponent from "./Location/locationlist.js";
 
 useLocation()
 locationListComponent()
